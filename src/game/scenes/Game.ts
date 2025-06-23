@@ -90,9 +90,9 @@ export class Game extends Scene
     update() {
         // Player movement
         if (this.cursors.left.isDown) {
-            this.player.setVelocityX(-20);
+            this.player.setVelocityX(-200);
         } else if (this.cursors.right.isDown) {
-            this.player.setVelocityX(20);
+            this.player.setVelocityX(200);
         } else {
             this.player.setVelocityX(0);
         }
