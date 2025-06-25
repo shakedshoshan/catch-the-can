@@ -15,7 +15,7 @@ export class Menu extends Scene {
         this.add.image(512, 384, 'background');
         
         // Title
-        this.add.text(512, 200, 'CATCH THE CAN', {
+        this.add.text(512, 200, 'DOODLE JUMP', {
             fontFamily: 'Arial Black',
             fontSize: 64,
             color: '#ffffff',
@@ -25,7 +25,7 @@ export class Menu extends Scene {
         }).setOrigin(0.5);
         
         // Instructions
-        this.add.text(512, 300, 'Catch falling stars with your cart\nUse arrow keys to move left and right\nCollect as many as you can in 60 seconds!', {
+        this.add.text(512, 300, 'Jump on platforms and reach the highest score!\nUse arrow keys or WASD to move left and right\nYou wrap around the screen edges\nDon\'t fall below the screen!', {
             fontFamily: 'Arial',
             fontSize: 24,
             color: '#ffffff',
